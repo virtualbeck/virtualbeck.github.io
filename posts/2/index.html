@@ -74,15 +74,25 @@ Let&rsquo;s write a script to run Plex in docker"/>
                     </h1>
                     <h2 class="headline">
                     Mar 22, 2019 16:45
-                    · 59 words
+                    · 156 words
                     · 1 minute read
                       <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/bash">bash</a>
+                          
+                              <a href="/tags/linux">linux</a>
+                          
+                              <a href="/tags/plex">plex</a>
+                          
+                              <a href="/tags/docker">docker</a>
+                          
+                      
                       
                       </span>
                     </h2>
                 </header>
-                
-                  
                 
                 <section id="post-body">
                     <p><img src="../../images/plex.png" alt="alt text" title="Plex" /></p>
@@ -91,7 +101,29 @@ Let&rsquo;s write a script to run Plex in docker"/>
 
 <p>Plex is great. Host all your media in your own hardware. Upgrading Plex from a binary is not great. Letting docker run latest is the easiest way I&rsquo;ve found to upgrade. First, you have to make a few dirs, but it is straight-forward.</p>
 
-<p>I&rsquo;ll put more here in a bit.</p>
+<pre><code class="language-bash">mkdir -p /mnt/data/plex/db
+mkdir -p /mnt/data/plex/tmp
+</code></pre>
+
+<p>Great, now we have our folder structure. Now we will create a script to start plex in docker. Open a new file: <code>nano startPlex.sh</code> and copy this into it.</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+docker run \
+-d \ #run in daemon mode
+--name plex \
+--network=host \ #use NIC card of host machine
+-e TZ=&quot;America/Chicago&quot; \
+-e PLEX_CLAIM=&quot;claim-xxxyyyzzz&quot; \
+-h beck \
+-v /mnt/data/plex/db:/config \
+-v /mnt/data/plex/tmp:/transcode \
+-v /mnt/data:/data \
+--restart=always \
+linuxserver/plex:latest
+</code></pre>
+
+<p>After that, just make the file executable by running <code>chmod +x startPlex.sh</code> and then <code>./startPlex.sh</code>. That&rsquo;s it! You should have plex running in your own docker container!</p>
                 </section>
             </article>
 
@@ -109,6 +141,19 @@ Let&rsquo;s write a script to run Plex in docker"/>
             
 
             
+
+            
+                <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/posts/1/">Keep your Slack profile pic updated<aside class="dates">Dec 27 2018</aside></a>
+        </li>
+    
+</ul>
 
             
 
