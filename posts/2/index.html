@@ -74,7 +74,7 @@ Let&rsquo;s write a script to run Plex in docker"/>
                     </h1>
                     <h2 class="headline">
                     Mar 22, 2019 16:45
-                    · 156 words
+                    · 179 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -113,14 +113,14 @@ docker run \
 -d \ #run in daemon mode
 --name plex \
 --network=host \ #use NIC card of host machine
--e TZ=&quot;America/Chicago&quot; \
--e PLEX_CLAIM=&quot;claim-xxxyyyzzz&quot; \
--h beck \
--v /mnt/data/plex/db:/config \
--v /mnt/data/plex/tmp:/transcode \
--v /mnt/data:/data \
---restart=always \
-linuxserver/plex:latest
+-e TZ=&quot;America/Chicago&quot; \ #enter your timezone
+-e PLEX_CLAIM=&quot;claim-xxxyyyzzz&quot; \ #https://www.plex.tv/claim/
+-h localhost \ #hostname
+-v /mnt/data/plex/db:/config \ #mapping config dir
+-v /mnt/data/plex/tmp:/transcode \ #mapping transcode dir
+-v /mnt/data:/data \ #mapping data dir
+--restart=always \ #restart in event of a failed container
+linuxserver/plex:latest #image source
 </code></pre>
 
 <p>After that, just make the file executable by running <code>chmod +x startPlex.sh</code> and then <code>./startPlex.sh</code>. That&rsquo;s it! You should have plex running in your own docker container!</p>
@@ -139,6 +139,21 @@ linuxserver/plex:latest
 </a>
 
             
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'virtualbeck'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
             
 
