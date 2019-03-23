@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mike Beck</title>
-    <link>/tags/</link>
+    <link>https://virtualbeck.com/tags/</link>
     <description>Recent content in Tags on Mike Beck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 22 Mar 2019 16:45:49 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://virtualbeck.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash</title>
-      <link>/tags/bash/</link>
+      <link>https://virtualbeck.com/tags/bash/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
-      <guid>/tags/bash/</guid>
+      <guid>https://virtualbeck.com/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>/tags/docker/</link>
+      <link>https://virtualbeck.com/tags/docker/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
-      <guid>/tags/docker/</guid>
+      <guid>https://virtualbeck.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>https://virtualbeck.com/tags/linux/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://virtualbeck.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plex</title>
-      <link>/tags/plex/</link>
+      <link>https://virtualbeck.com/tags/plex/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
-      <guid>/tags/plex/</guid>
+      <guid>https://virtualbeck.com/tags/plex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slack</title>
-      <link>/tags/slack/</link>
+      <link>https://virtualbeck.com/tags/slack/</link>
       <pubDate>Thu, 27 Dec 2018 11:13:49 -0500</pubDate>
       
-      <guid>/tags/slack/</guid>
+      <guid>https://virtualbeck.com/tags/slack/</guid>
       <description></description>
     </item>
     
