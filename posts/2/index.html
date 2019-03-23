@@ -74,7 +74,7 @@ Let&rsquo;s write a script to run Plex in docker"/>
                     </h1>
                     <h2 class="headline">
                     Mar 22, 2019 16:45
-                    · 179 words
+                    · 189 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -110,17 +110,17 @@ mkdir -p /mnt/data/plex/tmp
 <pre><code class="language-bash">#!/bin/bash
 
 docker run \
--d \ #run in daemon mode
+-d \ # run in daemon mode
 --name plex \
---network=host \ #use NIC card of host machine
--e TZ=&quot;America/Chicago&quot; \ #enter your timezone
--e PLEX_CLAIM=&quot;claim-xxxyyyzzz&quot; \ #https://www.plex.tv/claim/
--h localhost \ #hostname
--v /mnt/data/plex/db:/config \ #mapping config dir
--v /mnt/data/plex/tmp:/transcode \ #mapping transcode dir
--v /mnt/data:/data \ #mapping data dir
---restart=always \ #restart in event of a failed container
-linuxserver/plex:latest #image source
+--network=host \ # use NIC card of host machine
+-e TZ=&quot;America/Chicago&quot; \ # enter your timezone
+-e PLEX_CLAIM=&quot;claim-xxxyyyzzz&quot; \ # https://www.plex.tv/claim/
+-h localhost \ # hostname
+-v /mnt/data/plex/db:/config \ # mapping config dir
+-v /mnt/data/plex/tmp:/transcode \ # mapping transcode dir
+-v /mnt/data:/data \ # mapping data dir
+--restart=always \ # restart in event of a failed container
+linuxserver/plex:latest # image source
 </code></pre>
 
 <p>After that, just make the file executable by running <code>chmod +x startPlex.sh</code> and then <code>./startPlex.sh</code>. That&rsquo;s it! You should have plex running in your own docker container!</p>
@@ -128,22 +128,14 @@ linuxserver/plex:latest #image source
             </article>
 
             
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fvirtualbeck.com%2fposts%2f2%2f - Plex%20running%20in%20docker by @virtualbeck"><span class="icon-twitter"> Tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
+                
 
             
 
             
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = 'virtualbeck'; 
+    var disqus_shortname = 'virtualbeck';
 
      
     (function() {
@@ -232,8 +224,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
-
 
 
 
