@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mike Beck</title>
@@ -17,8 +17,7 @@
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
       <guid>https://virtualbeck.com/posts/2/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../images/plex.png&#34; alt=&#34;alt text&#34; title=&#34;Plex&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/plex.png&#34; alt=&#34;alt text&#34; title=&#34;Plex&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Let&amp;rsquo;s write a script to run Plex in docker&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
@@ -28,8 +27,7 @@
       <pubDate>Thu, 27 Dec 2018 11:13:49 -0500</pubDate>
       
       <guid>https://virtualbeck.com/posts/1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../images/slackBash.png&#34; alt=&#34;alt text&#34; title=&#34;Slack + BASH&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/slackBash.png&#34; alt=&#34;alt text&#34; title=&#34;Slack + BASH&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Let&amp;rsquo;s write a script to take and upload pictures&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     

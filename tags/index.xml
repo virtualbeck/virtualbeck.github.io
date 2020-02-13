@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mike Beck</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Bash</title>
+      <title>bash</title>
       <link>https://virtualbeck.com/tags/bash/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Docker</title>
+      <title>docker</title>
       <link>https://virtualbeck.com/tags/docker/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://virtualbeck.com/tags/linux/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Plex</title>
+      <title>plex</title>
       <link>https://virtualbeck.com/tags/plex/</link>
       <pubDate>Fri, 22 Mar 2019 16:45:49 -0500</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Slack</title>
+      <title>slack</title>
       <link>https://virtualbeck.com/tags/slack/</link>
       <pubDate>Thu, 27 Dec 2018 11:13:49 -0500</pubDate>
       

@@ -1,9 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://virtualbeck.com/tags/bash/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/tags/docker/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/tags/linux/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/tags/plex/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://virtualbeck.com/posts/2/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/posts/</loc>
+    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://virtualbeck.com/tags/</loc>
     <lastmod>2019-03-22T16:45:49-05:00</lastmod>
   </url>
   
@@ -18,56 +53,12 @@
   </url>
   
   <url>
-    <loc>https://virtualbeck.com/tags/bash/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://virtualbeck.com/tags/slack/</loc>
+    <lastmod>2018-12-27T11:13:49-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://virtualbeck.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/tags/docker/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/tags/linux/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/tags/plex/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/posts/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/tags/slack/</loc>
-    <lastmod>2018-12-27T11:13:49-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://virtualbeck.com/tags/</loc>
-    <lastmod>2019-03-22T16:45:49-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
